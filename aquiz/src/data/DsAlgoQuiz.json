@@ -1,0 +1,95 @@
+{
+  "duration": "10min",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Which of the following usees FIFO method",
+      "options": ["Queue", "Stack", "Hash Table", "Binary Search Tree"],
+      "correctOption": 1
+    },
+    {
+      "id": "2",
+      "question": "What data structure is used for breadth first traversal of a graph?",
+      "options": ["queue", "stack", "list", "none of the above"],
+      "correctOption": 1
+    },
+    {
+      "id": "3",
+      "question": "A linked-list is not a dynamic structure",
+      "options": ["True", "False"],
+      "correctOption": 2
+    },
+    {
+      "id": "4",
+      "question": "Which of the following searching techniques do not require the data to be in sorted form",
+      "options": [
+        "Binary Search",
+        "Interpolation Search",
+        "Linear Search",
+        "All of the above"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "5",
+      "question": "Time complexity of Depth First Traversal of is",
+      "options": ["Θ(|V|+|E|)", "Θ(|V|)", "Θ(|E|)", "Θ(|V|*|E|)"],
+      "correctOption": 1
+    },
+    {
+      "id": "6",
+      "question": "What will be the running-time of Dijkstra's single source shortest path algorithm, if the graph G(V,E) is stored in form of adjacency list and binary heap is used −",
+      "options": [
+        "Ο(|V|2)",
+        "Ο(|V| log |V|)",
+        "Ο(|E|+|V| log |V|)",
+        "None of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "7",
+      "question": "In doubly linked lists",
+      "options": [
+        "a pointer is maintained to store both next and previous nodes.",
+        "two pointers are maintained to store next and previous nodes.",
+        "a pointer to self is maintained for each node.",
+        "none of the above."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "8",
+      "question": "In the deletion operation of max heap, the root is replaced by",
+      "options": [
+        "next available value in the left sub-tree.",
+        "next available value in the right sub-tree.",
+        "any random value from the heap.",
+        "last element of the last level"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": "9",
+      "question": "If locality is a concern, you can use _______ to traverse the graph.",
+      "options": [
+        "Breadth First Search",
+        "Depth First Search",
+        "Either BFS or DFS",
+        "None of the above!"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "10",
+      "question": "Apriori analysis of an algorithm assumes that −",
+      "options": [
+        "the algorithm has been tested before in real environment.",
+        "all other factors like CPU speed are constant and have no effect on implementation.",
+        "the algorithm needs not to be practical.",
+        "none of the above."
+      ],
+      "correctOption": 2
+    }
+  ]
+}

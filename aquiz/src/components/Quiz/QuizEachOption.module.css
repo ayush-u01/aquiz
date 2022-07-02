@@ -1,0 +1,78 @@
+.option {
+  --current-color: var(--color-primary);
+  --current-color-lighter: var(--color-primary-lighter);
+
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  transition: all 0.2s;
+
+  border-radius: 0.5rem;
+  display: flex;
+  border: 1px solid var(--color-grey-dark-5);
+  box-shadow: 0 0 0.8rem var(--current-color-lighter);
+  padding: 1rem;
+  color: azure;
+}
+
+.optionSelected,
+.optionRejected,
+.optionActual,
+.option:hover:not(.optionUnclickable) {
+  background-color: var(--current-color);
+  color: var(--color-grey-light-1);
+}
+
+.optionSelected {
+  --current-color: var(--color-green);
+  --current-color-lighter: var(--color-green-lighter);
+}
+
+.optionRejected {
+  --current-color: var(--color-red);
+  --current-color-lighter: var(--color-red-lighter);
+}
+
+.optionActual {
+  --current-color: var(--color-blue);
+  --current-color-lighter: var(--color-blue-lighter);
+}
+
+.option:not(.optionSelected):not(.optionRejected):not(.optionUnclickable):hover {
+  /* .option:hover { */
+  --current-color: var(--color-blue);
+  --current-color-lighter: var(--color-blue-lighter);
+  transform: translateY(-3px);
+}
+
+.optionCnt {
+  background-color: var(--current-color);
+  color: var(--color-grey-light-1);
+  /* box-shadow: 0 0 0.8rem var(--color-primary-light); */
+  /* border: 2px solid var(--color-primary); */
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 3rem;
+}
+
+.optionValue {
+  text-align: left;
+}
+
+.optionSelected .optionCnt,
+.optionRejected .optionCnt,
+.optionActual .optionCnt,
+.option:hover:not(.optionUnclickable) .optionCnt {
+  background-color: var(--color-grey-light-1);
+  color: var(--current-color);
+  font-weight: 700;
+}

@@ -1,0 +1,80 @@
+{
+  "duration": "10min",
+  "questions": [
+    {
+      "id": "1",
+      "question": "A collection of related data.",
+      "options": [
+        "Information",
+        "Valuable information",
+        "Database",
+        "Metadata"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "2",
+      "question": "A collection of related data.",
+      "options": ["True", "False"],
+      "correctOption": 1
+    },
+    {
+      "id": "3",
+      "question": "DBMS manages the interaction between __________ and database.",
+      "options": ["Users", "Clients", "End Users", "Stake Holders"],
+      "correctOption": 3
+    },
+    {
+      "id": "4",
+      "question": "Which of the following is not involved in DBMS?",
+      "options": ["End Users", "Data", "Application Request", "HTML"],
+      "correctOption": 4
+    },
+    {
+      "id": "5",
+      "question": "Database is generally __________",
+      "options": [
+        "System-centered",
+        "User-centered",
+        "Company-centered",
+        "Data-centered"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": "6",
+      "question": "A characteristic of an entity.",
+      "options": ["Relation", "Attribute", "Parameter", "Constrain"],
+      "correctOption": 2
+    },
+    {
+      "id": "7",
+      "question": "The restrictions placed on the data.",
+      "options": ["Relation", "Attribute", "Parameter", "Constraint"],
+      "correctOption": 4
+    },
+    {
+      "id": "8",
+      "question": "IMS stands for?",
+      "options": [
+        "Information Mastering System",
+        "Instruction Management System",
+        "Instruction Manipulating System",
+        "Information Management System"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": "9",
+      "question": "A model developed by Hammer and Mc Leod in 1981.",
+      "options": ["SDM", "OODBM", "DDM", "RDM"],
+      "correctOption": 1
+    },
+    {
+      "id": "10",
+      "question": "Object=_________+relationships.",
+      "options": ["data", "attributes", "entity", "constraints"],
+      "correctOption": 3
+    }
+  ]
+}

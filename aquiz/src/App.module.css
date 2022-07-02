@@ -1,0 +1,30 @@
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c4646;
+}
+
+.container {
+  margin: 3rem;
+  width: 90vw;
+  min-height: 90vh;
+  background-color: var(--color-white);
+  /* background-color: red; */
+  box-shadow: var(--shadow-primary);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: 0.5rem;
+}
+
+/* 550px = 34.375em (550/16) */
+@media screen and (max-width: 34.375em) {
+  .container {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+}

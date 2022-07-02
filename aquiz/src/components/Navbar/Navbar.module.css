@@ -1,0 +1,30 @@
+.nav {
+  background-color: crimson;
+  color: var(--color-grey-light-1);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 100px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--color-grey-light-1);
+}
+
+.text {
+  padding-left: 1.5rem;
+}
+
+/* 550px = 34.375em (550/16) */
+@media screen and (max-width: 34.375em) {
+  .nav {
+    flex-direction: column;
+    border-radius: 0;
+  }
+}

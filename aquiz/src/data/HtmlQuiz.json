@@ -1,0 +1,93 @@
+{
+  "duration": "15min",
+  "questions": [
+    {
+      "id": "1",
+      "question": "All elements are identified by their __________ and are marked up using either start tags and end tags or self-closing tags.",
+      "options": [
+        "attribute name",
+        "tag name",
+        "class name",
+        "none of the mentioned"
+      ],
+      "correctOption": 2
+    },
+
+    {
+      "id": "2",
+      "question": "The __________ element represents a span of text that is isolated from its surroundings for the purposes of bidirectional text formatting.",
+      "options": ["b", "bdi", "bdo", "base"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "3",
+      "question": "The interactive element audio with the attribute controls must not appear as a descendant of which element?",
+      "options": ["a", "button", "audio", "both a and button"],
+      "correctOption": 4
+    },
+
+    {
+      "id": "4",
+      "question": "A ____________ element must have a start tag but must not have an end tag.",
+      "options": ["details", "command", "code", "both details and command"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "5",
+      "question": "Which type attribute of input element sets the element’s value to a string representing a number?",
+      "options": ["range", "email", "file", "date"],
+      "correctOption": 1
+    },
+
+    {
+      "id": "6",
+      "question": "Which of the following type attributes of input element defines control for entering a telephone number?",
+      "options": ["mob", "tel", "mobile", "telephone"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "7",
+      "question": "Which element represents a control for generating a public-private key pair?",
+      "options": ["ins", "keygen", "key", "command"],
+      "correctOption": 2
+    },
+
+    {
+      "id": 8,
+      "question": "The World Wide Web’s markup language has always been HTML.",
+      "options": ["True", "False"],
+      "correctOption": 1
+    },
+
+    {
+      "id": "9",
+      "question": "Which element represents marked or highlighted text for reference purposes?",
+      "options": ["highlight", "mark", "strong", "blink"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "10",
+      "question": "Which element(s) represents a section of a document that links to other documents?",
+      "options": ["navigation", "anchor tag", "nav", "option"],
+      "correctOption": 3
+    },
+
+    {
+      "id": "11",
+      "question": "Which of the following element marks the ruby text component of a ruby annotation?",
+      "options": ["r", "rt", "ruby", "rubytxt"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "12",
+      "question": "Subtitle tracks and caption tracks to be specified for audio and video elements can be added using which of the following element?",
+      "options": ["sink", "track", "stable", "caption"],
+      "correctOption": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+.button {
+  --current-color: var(--color-primary);
+  --current-color-darker: var(--color-primary-darker);
+
+  /* reset */
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+  line-height: inherit;
+  font-weight: 300;
+  background: none;
+  transition: all 0.2s;
+
+  background: var(--current-color);
+  color: var(--color-grey-light-1);
+
+  padding: 0.4rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--current-color-darker);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button:disabled {
+  cursor: no-drop;
+  background-color: var(--current-color-lighter);
+}
+
+.buttonWhite {
+  background-color: var(--color-white);
+  color: var(--current-color);
+  font-weight: 400;
+}
+
+.buttonWhite:hover,
+.buttonWhite:active {
+  background-color: var(--color-grey-light-2);
+}
+
+.buttonBig {
+  font-size: 125%;
+  padding: 0.5rem 2rem;
+  border-radius: 0.6rem;
+}

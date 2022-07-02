@@ -1,0 +1,28 @@
+.progressEach {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #725757;
+  margin: 0 1rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 900;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  /* color : #725757; */
+  cursor: pointer;
+}
+
+.progressEachVisited {
+  background-color: var(--color-red);
+}
+
+.progressEachAttempted {
+  background-color: var(--color-green);
+}
+
+.progressEachCurrent {
+  background-color: var(--color-blue);
+  transform: scale(1.35);
+}

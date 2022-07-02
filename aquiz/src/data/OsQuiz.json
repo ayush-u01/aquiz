@@ -1,0 +1,100 @@
+{
+  "duration": "10min",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is an operating system?",
+      "options": [
+        "collection of programs that manages hardware resources",
+        "system service provider to the application programs",
+        "interface between the hardware and application programs",
+        "all of the mentioned"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": "2",
+      "question": "To access the services of operating system, the interface is provided by the ..............",
+      "options": ["System calls", "API", "Library", "Assembly instructions"],
+      "correctOption": 1
+    },
+    {
+      "id": "3",
+      "question": "Which one of the following is not true?",
+      "options": [
+        "kernel is the program that constitutes the central core of the operating system",
+        "kernel is the first part of operating system to load into memory during booting",
+        "kernel is made of various modules which can not be loaded in running operating system",
+        "kernel remains in the memory during the entire computer session"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": "4",
+      "question": "Which one of the following error will be handle by the operating system?",
+      "options": [
+        "power failure",
+        "lack of paper in printer",
+        "connection failure in the network",
+        "all of the mentioned"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": "5",
+      "question": "What is the main function of the command interpreter?",
+      "options": [
+        "to get and execute the next user-specified command",
+        "to provide the interface between the API and application program",
+        "to handle the files in operating system",
+        "none of the mentioned"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "6",
+      "question": "In Operating Systems, which of the following is/are CPU scheduling algorithms?",
+      "options": [
+        "Round Robin",
+        "Shortest Job First",
+        "Priority",
+        "All of the mentioned"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": "7",
+      "question": "If a process fails, most operating system write the error information to a ______",
+      "options": [
+        "log file",
+        "another running process",
+        "new file",
+        "none of the mentioned"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": "8",
+      "question": "Which facility dynamically adds probes to a running system, both in user processes and in the kernel?",
+      "options": ["DTrace", "DLocate", "DMap", "DAdd"],
+      "correctOption": 1
+    },
+    {
+      "id": "9",
+      "question": "Which one of the following is not a real time operating system?",
+      "options": ["VxWorks", "QNX", "RTLinux", "Palm OS"],
+      "correctOption": 4
+    },
+    {
+      "id": "10",
+      "question": "The OS X has ...............",
+      "options": [
+        "monolithic kernel",
+        "hybrid kernel",
+        "microkernel",
+        "monolithic kernel with modules"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.options {
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  margin: 4rem 0 2rem 0;
+  justify-items: center;
+  gap: 3rem;
+  color:  #f7f5ea;
+  
+}
+
+.actions {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}

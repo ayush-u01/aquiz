@@ -1,0 +1,104 @@
+{
+  "duration": "10min",
+  "questions": [
+    {
+      "id": "1",
+      "question": "All APIs of Node.JS are.",
+      "options": [
+        "Asynchronous",
+        "Synchronous",
+        "Both of the above.",
+        "None of the above."
+      ],
+      "correctOption": 1
+    },
+
+    {
+      "id": "2",
+      "question": "Which of the following command will show all the modules installed locally.",
+      "options": ["$ npm ls -g", "$ npm ls", "$ node ls -g", "$ node ls"],
+      "correctOption": 2
+    },
+
+    {
+      "id": "3",
+      "question": "Which of the following code gets length of a buffer buf?",
+      "options": ["buf.length", "buf.size", "buf.length()", "buf.size()"],
+      "correctOption": 1
+    },
+
+    {
+      "id": "4",
+      "question": "Which method of fs module is used to write a file?",
+      "options": [
+        "fs.write(path, flags[, mode], callback)",
+        "fs.writeFile(path, flags[, mode], callback)",
+        "fs.writePath(path, flags[, mode], callback)",
+        "None of the above."
+      ],
+      "correctOption": 2
+    },
+
+    {
+      "id": "5",
+      "question": "Which of the following is true about setInterval(cb, ms) global function?",
+      "options": [
+        "The setInterval(cb, ms) global function is used to run callback cb repeatedly after at least ms milliseconds.",
+        "The setInterval(cb, ms) method returns an opaque value that represents the timer which can be used to clear the timer using the function clearInterval(t).",
+        "Both of the above.",
+        "None of the above."
+      ],
+      "correctOption": 3
+    },
+
+    {
+      "id": "6",
+      "question": "Which of the following is true about process global object?",
+      "options": [
+        "The process object is an instance of EventEmitter.",
+        "process emits exit event when process is about to exit.",
+        "process emits uncaughtException when when an exception bubbles all the way back to the event loop.",
+        "All of the above."
+      ],
+      "correctOption": 4
+    },
+
+    {
+      "id": "7",
+      "question": "Which of the following module is required for network specific operations?",
+      "options": ["os module", "fs module", "net module", "None of the above."],
+      "correctOption": 3
+    },
+
+    {
+      "id": "8",
+      "question": "Which of the following method resolves an ip address to an array of hostnames?",
+      "options": [
+        "dns.reverse(ip, callback)",
+        "dns.resolve(hostname[, rrtype], callback)",
+        "dns.resolve4(hostname, callback)",
+        "None of the above."
+      ],
+      "correctOption": 1
+    },
+
+    {
+      "id": "9",
+      "question": "Which of the following code can create a web server?",
+      "options": [
+        "http.createServer(callback)",
+        "http.createWebServer(callback)",
+        "http.createHTTPServer(callback)",
+        "None of the above."
+      ],
+      "correctOption": 1
+    },
+
+    {
+      "id": "10",
+      "question": "Transform stream is a type of duplex stream.",
+      "options": ["True", "False"],
+      "correctOption": 1
+    }
+  ]
+}

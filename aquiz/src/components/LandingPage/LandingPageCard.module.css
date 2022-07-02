@@ -1,0 +1,64 @@
+.card {
+  text-align: center;
+  display: flex;
+  margin-bottom: 5rem;
+  padding: 2rem 5rem;
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 80px;
+  position: relative;
+}
+/* .card:hover */
+.start{
+  margin: auto;
+  margin-left: 20rem;
+}
+
+.topic{
+  /* margin-left: 5rem; */
+  /* margin-right: 25rem; */
+  height: 63px;
+  margin: auto;
+}
+
+.icon {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 0px ;
+}
+.icon:hover{
+  transform: translateY(0) scale(1.2);
+}
+.card:hover,
+.cardSelected {
+  border: 3px solid var(--color-yellow-lighter);
+  transform: translateY(0) scale(1.2);
+
+  padding-bottom: 2rem;
+}
+
+.cardSelected::before {
+  content: '\2713';
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: red;
+  background: linear-gradient(
+    to bottom right,
+    var(--color-yellow-lighter) 0%,
+    var(--color-yellow-lighter) 50%,
+    transparent 50%,
+    transparent 100%
+  );
+
+  font-weight: 700;
+  color: var(--color-grey-light-1);
+
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  padding-right: 0.7rem;
+  padding-bottom: 4rem;
+  /* margin-bottom: 4rem; */
+}
+

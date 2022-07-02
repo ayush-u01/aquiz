@@ -1,0 +1,25 @@
+.actions {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.actions > * {
+  margin: 0 0.5rem;
+}
+
+.actionsLeft {
+  justify-content: flex-start;
+}
+
+.actionsLeft > * {
+  margin: 0 1rem 0 0;
+}
+
+.actionsRight {
+  justify-content: flex-end;
+}
+
+.actionsRight > * {
+  margin: 0 0 0 1rem;
+}

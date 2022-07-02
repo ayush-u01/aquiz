@@ -1,0 +1,40 @@
+/* ----------------------------------
+Options
+----------------------------------*/
+
+.options {
+  margin: 4rem 0 3rem;
+}
+
+.optionsWhite {
+  background-color: #422e2e;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.optionsMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.feedback {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: var(--color-blue);
+}
+
+.feedbackSuccess {
+  color: var(--color-green);
+}
+
+.feedbackDanger {
+  color: var(--color-red);
+}
+
+/* 700px = 43.75em (700/16) */
+@media screen and (max-width: 43.75em) {
+  .optionsMain {
+    grid-template-columns: 1fr;
+  }
+}

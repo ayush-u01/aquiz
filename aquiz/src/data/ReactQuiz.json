@@ -1,0 +1,145 @@
+{
+  "duration": "15min",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Everything in React is a ........................",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "What of the following is used in React.js to increase performance?",
+      "options": [
+        "Original DOM",
+        "Virtual DOM",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "How many numbers of elements a valid react component can return?",
+      "options": ["1", "2", "4", "5"],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What are the two ways to handle data in React?",
+      "options": [
+        "State & Props",
+        "Services & Components",
+        "State & Services",
+        "State & Component"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is used to pass data to a component from outside in React.js?",
+      "options": ["SetState", "Render with arguments", "Props", "PropTypes"],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Which of the following function is used to change the state of the React.js component?",
+      "options": [
+        "this.setState",
+        "this.setChangeState",
+        "this.State{}",
+        "None of the above"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "React is ........................",
+      "options": [
+        "Component based",
+        "Module based",
+        "Both of above",
+        "None of above"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "JSX allows us to write HTML elements in JavaScript and place them in the DOM without any?",
+      "options": [
+        "createElement",
+        "appendChild",
+        "getElementById",
+        "Both A and B"
+      ],
+      "correctOption": 4
+    },
+    {
+      "id": 9,
+      "question": "Which of the following keyword is used to create a class inheritance?",
+      "options": ["True", "False"],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "What is a state in React?",
+      "options": [
+        "A permanent storage",
+        "Internal storage of the component",
+        "External storage of the component",
+        "None of the above"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 11,
+      "question": "In which of the following directory React.js components are saved?",
+      "options": [
+        "Inside the src/components/",
+        "Inside the vendor/components/",
+        "Inside the external/components/",
+        "Inside the vendor/"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "What is true for the keys given to a list of elements in React?",
+      "options": [
+        "Unique in the DOM",
+        "Unique among the siblings only",
+        "Do not require to be unique",
+        "None of the above"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following method refers to the parent class in React.js?",
+      "options": ["inherits()", "self()", "super()", "this()"],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "What does ES6 stand for?",
+      "options": [
+        "ECMAScript 6",
+        "ECMA 6",
+        "ECMAJavaScript 6",
+        "EJavaScript 6"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the use of the create-react-app command in the React.js application?",
+      "options": [
+        "It is used to update a React app.",
+        "It is used to create a new React app.",
+        "It is used to install dependencies.",
+        "None of the above."
+      ],
+      "correctOption": 2
+    }
+  ]
+}
